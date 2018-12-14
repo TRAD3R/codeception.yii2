@@ -39,6 +39,7 @@ return [
   'TITLE_RESET_PASSWORD' => 'Восстановление пароля',
   'TITLE_CONTACT' => 'Обратная связь',
   'TITLE_SIGNUP' => 'Регистрация',
+  'TITLE_PROFILE' => 'Профиль',
 
   'USER_USERNAME' => 'Логин',
   'USER_PASSWORD' => 'Пароль',

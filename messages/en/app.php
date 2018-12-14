@@ -36,6 +36,7 @@ return [
   'TITLE_RESET_PASSWORD' => 'Reset password',
   'TITLE_CONTACT' => 'Contact',
   'TITLE_SIGNUP' => 'Signup',
+  'TITLE_PROFILE' => 'Profile',
 
   'USER_USERNAME' => 'Login',
   'USER_PASSWORD' => 'Password',
