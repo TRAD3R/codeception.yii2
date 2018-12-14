@@ -10,6 +10,8 @@ return [
   'NAV_CONTACT' => 'Contact',
   'NAV_SIGNUP' => 'Signup',
   'NAV_LOGIN' => 'Login',
+  'NAV_PROFILE_UPDATE' => 'Update profile',
+  'NAV_PASSWORD_CHANGE' => 'Change password',
   'NAV_LOGOUT' => 'Logout',
 
   'BUTTON_SEND' => 'Send',
@@ -38,9 +40,13 @@ return [
   'TITLE_SIGNUP' => 'Signup',
   'TITLE_PROFILE' => 'Profile',
   'TITLE_UPDATE' => 'Update',
+  'TITLE_PASSWORD_CHANGE' => 'Change password',
 
   'USER_USERNAME' => 'Login',
   'USER_PASSWORD' => 'Password',
+  'USER_NEW_PASSWORD' => 'New password',
+  'USER_REPEAT_PASSWORD' => 'Repeat password',
+  'USER_CURRENT_PASSWORD' => 'Current password',
   'USER_EMAIL' => 'Email',
   'USER_REMEMBER_ME' => 'Remember me',
 
@@ -48,6 +54,7 @@ return [
   'MISSING_VERIFICATION_CODE' => 'Missing verification code.',
   'WRONG_TOKEN' => 'Wrong token.',
   'WRONG_USERNAME_OR_PASSWORD' => 'Wrong username or password',
+  'ERROR_WRONG_CURRENT_PASSWORD' => 'Wrong current password',
   'ACCOUNT_BLOCKED' => 'Your acount was blocked.',
   'ACCOUNT_NOT_VERIFIED' => 'Your account has not been verified.',
   'EMPTY_TOKEN' => 'Password reset token cannot be blank.',

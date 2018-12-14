@@ -7,10 +7,12 @@
  */
 return [
   'NAV_HOME' => 'Главная',
-  'NAV_CONTACT' => 'Связь',
+  'NAV_CONTACT' => 'Контакты',
   'NAV_SIGNUP' => 'Регистрация',
   'NAV_LOGIN' => 'Вход',
   'NAV_PROFILE' => 'Профиль',
+  'NAV_PROFILE_UPDATE' => 'Редактировать профиль',
+  'NAV_PASSWORD_CHANGE' => 'Изменить пароль',
   'NAV_LOGOUT' => 'Выход',
 
   'BUTTON_SEND' => 'Отправить',
@@ -41,9 +43,13 @@ return [
   'TITLE_SIGNUP' => 'Регистрация',
   'TITLE_PROFILE' => 'Профиль',
   'TITLE_UPDATE' => 'Редактирование',
+  'TITLE_PASSWORD_CHANGE' => 'Изменение пароля',
 
   'USER_USERNAME' => 'Логин',
   'USER_PASSWORD' => 'Пароль',
+  'USER_NEW_PASSWORD' => 'Новый пароль',
+  'USER_REPEAT_PASSWORD' => 'Повторите пароль',
+  'USER_CURRENT_PASSWORD' => 'Текущий пароль',
   'USER_EMAIL' => 'Email',
   'USER_REMEMBER_ME' => 'Запомнить',
 

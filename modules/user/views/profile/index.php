@@ -22,7 +22,6 @@ echo Nav::widget([
   'options' => ['class' => 'navbar-nav navbar-right'],
   'items' => array_filter([
     ['label' => Yii::t('app', 'NAV_HOME'), 'url' => ['/main/default/index']],
-    ['label' => Yii::t('app', 'NAV_CONTACT'), 'url' => ['/main/contact/index']],
     Yii::$app->user->isGuest ?
       ['label' => Yii::t('app', 'NAV_SIGNUP'), 'url' => ['/user/default/signup']] :
       false,
@@ -32,6 +31,13 @@ echo Nav::widget([
     !Yii::$app->user->isGuest ?
       ['label' => Yii::t('app', 'NAV_PROFILE'), 'url' => ['/user/profile/index']] :
       false,
+    !Yii::$app->user->isGuest ?
+      ['label' => Yii::t('app', 'NAV_PROFILE_UPDATE'), 'url' => ['/user/profile/update']] :
+      false,
+    !Yii::$app->user->isGuest ?
+      ['label' => Yii::t('app', 'NAV_PASSWORD_CHANGE'), 'url' => ['/user/profile/password-change']] :
+      false,
+    ['label' => Yii::t('app', 'NAV_CONTACT'), 'url' => ['/main/contact/index']],
     !Yii::$app->user->isGuest ?
       ['label' => Yii::t('app', 'NAV_LOGOUT'),
         'url' => ['/user/default/logout'],

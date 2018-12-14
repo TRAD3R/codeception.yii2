@@ -7,6 +7,7 @@
  */
 namespace app\modules\user\controllers;
 
+use app\modules\user\models\PasswordChangeForm;
 use app\modules\user\models\ProfileUpdateForm;
 use app\modules\user\models\User;
 use yii\filters\AccessControl;
@@ -56,6 +57,20 @@ class ProfileController extends Controller
       return $this->redirect(['index']);
     } else {
       return $this->render('update', [
+        'model' => $model,
+      ]);
+    }
+  }
+
+  public function actionPasswordChange()
+  {
+    $user = $this->findModel();
+    $model = new PasswordChangeForm($user);
+
+    if ($model->load(Yii::$app->request->post()) && $model->changePassword()) {
+      return $this->redirect(['index']);
+    } else {
+      return $this->render('passwordChange', [
         'model' => $model,
       ]);
     }
