@@ -31,13 +31,6 @@ return [
         '<_m:[\w\-]+>/<_c:[\w\-]+>' => '<_m>/<_c>/index',
       ],
     ],
-    'mailer' => [
-      'class' => 'yii\swiftmailer\Mailer',
-      'useFileTransport' => true,
-    ],
-    'cache' => [
-      'class' => 'yii\caching\FileCache',
-    ],
     'log' => [
       'class' => 'yii\log\Dispatcher',
     ],
