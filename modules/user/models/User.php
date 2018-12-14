@@ -25,7 +25,6 @@ use yii\web\IdentityInterface;
  */
 class User extends ActiveRecord  implements IdentityInterface
 {
-
   /** #1 Первым делом, введём в неё константы для указания статуса, статический метод getStatusesArray для получения их списка и метод getStatusName для получения имени статуса пользователя. Эти методы пригодятся, например, при выводе пользователей в панели управления  */
   const STATUS_BLOCKED = 0;
   const STATUS_ACTIVE = 1;
@@ -265,4 +264,5 @@ class User extends ActiveRecord  implements IdentityInterface
     $this->email_confirm_token = null;
   }
   /** #8 */
+
 }

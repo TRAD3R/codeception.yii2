@@ -37,6 +37,7 @@ return [
   'TITLE_CONTACT' => 'Contact',
   'TITLE_SIGNUP' => 'Signup',
   'TITLE_PROFILE' => 'Profile',
+  'TITLE_UPDATE' => 'Update',
 
   'USER_USERNAME' => 'Login',
   'USER_PASSWORD' => 'Password',

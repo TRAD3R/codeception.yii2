@@ -7,6 +7,7 @@
  */
 namespace app\modules\user\controllers;
 
+use app\modules\user\models\ProfileUpdateForm;
 use app\modules\user\models\User;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -45,4 +46,18 @@ class ProfileController extends Controller
     return User::findOne(Yii::$app->user->identity->getId());
   }
   /** #1 */
+
+  public function actionUpdate()
+  {
+    $user = $this->findModel();
+    $model = new ProfileUpdateForm($user);
+
+    if ($model->load(Yii::$app->request->post()) && $model->update()) {
+      return $this->redirect(['index']);
+    } else {
+      return $this->render('update', [
+        'model' => $model,
+      ]);
+    }
+  }
 }

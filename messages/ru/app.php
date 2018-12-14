@@ -40,6 +40,7 @@ return [
   'TITLE_CONTACT' => 'Обратная связь',
   'TITLE_SIGNUP' => 'Регистрация',
   'TITLE_PROFILE' => 'Профиль',
+  'TITLE_UPDATE' => 'Редактирование',
 
   'USER_USERNAME' => 'Логин',
   'USER_PASSWORD' => 'Пароль',
