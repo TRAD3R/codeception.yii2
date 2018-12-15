@@ -14,6 +14,7 @@ return [
   'NAV_PROFILE_UPDATE' => 'Редактировать профиль',
   'NAV_PASSWORD_CHANGE' => 'Изменить пароль',
   'NAV_LOGOUT' => 'Выход',
+  'NAV_ADMIN' => 'Управление',
 
   'BUTTON_SEND' => 'Отправить',
   'BUTTON_SAVE' => 'Сохранить',
@@ -21,6 +22,8 @@ return [
   'BUTTON_DELETE' => 'Удалить',
   'BUTTON_LOGIN' => 'Войти',
   'BUTTON_SIGNUP' => 'Регистрация',
+  'BUTTON_CREATE_USER' => 'Создать нового пользователя',
+  'BUTTON_CREATE' => 'Создать',
 
   'HELLO {username}' => 'Здравствуйте, {username}!',
   'FILL_OUT_FOR_LOGIN' => 'Пожалуйста, для входа заполните поля ниже:',
@@ -36,14 +39,16 @@ return [
   'FILL_FOR_RESET_REQUEST' => 'Пожалуйста, заполните поле ниже для восстановления пароля:',
   'CHOOSE_NEW_PASSWORD' => 'Пожалуйста, выберите новый пароль:',
 
-
-
   'TITLE_RESET_PASSWORD' => 'Восстановление пароля',
   'TITLE_CONTACT' => 'Обратная связь',
   'TITLE_SIGNUP' => 'Регистрация',
   'TITLE_PROFILE' => 'Профиль',
   'TITLE_UPDATE' => 'Редактирование',
   'TITLE_PASSWORD_CHANGE' => 'Изменение пароля',
+  'ADMIN_USERS' => 'Пользователи',
+  'ADMIN_CREATE_USER' => 'Создать пользователя',
+  'ADMIN_UPDATE_USER' => 'Обновление данных пользователя',
+  'ADMIN_UPDATE_USER_NAME' => 'Обновление данных пользователя: {username}',
 
   'USER_USERNAME' => 'Логин',
   'USER_PASSWORD' => 'Пароль',

@@ -10,9 +10,11 @@ return [
   'NAV_CONTACT' => 'Contact',
   'NAV_SIGNUP' => 'Signup',
   'NAV_LOGIN' => 'Login',
+  'NAV_PROFILE' => 'Profile',
   'NAV_PROFILE_UPDATE' => 'Update profile',
   'NAV_PASSWORD_CHANGE' => 'Change password',
   'NAV_LOGOUT' => 'Logout',
+  'NAV_ADMIN' => 'Administration',
 
   'BUTTON_SEND' => 'Send',
   'BUTTON_SAVE' => 'Save',
@@ -20,6 +22,8 @@ return [
   'BUTTON_DELETE' => 'Delete',
   'BUTTON_LOGIN' => 'Login',
   'BUTTON_SIGNUP' => 'Signup',
+  'BUTTON_CREATE_USER' => 'Create new user',
+  'BUTTON_CREATE' => 'Create',
 
   'HELLO {username}' => 'Hello, {username}!',
   'FILL_OUT_FOR_LOGIN' => 'Please fill out the following fields to login:',
@@ -41,6 +45,10 @@ return [
   'TITLE_PROFILE' => 'Profile',
   'TITLE_UPDATE' => 'Update',
   'TITLE_PASSWORD_CHANGE' => 'Change password',
+  'ADMIN_USERS' => 'Users',
+  'ADMIN_CREATE_USER' => 'Create user',
+  'ADMIN_UPDATE_USER' => 'Update user',
+  'ADMIN_UPDATE_USER_NAME' => 'Update User: {username}',
 
   'USER_USERNAME' => 'Login',
   'USER_PASSWORD' => 'Password',
